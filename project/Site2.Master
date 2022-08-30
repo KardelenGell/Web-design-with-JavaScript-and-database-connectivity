@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="FinalProject.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kitap İncelemeleri</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="container1">
+<div id="header1"><h1><a>Kitap &#304;ncelemeleri</a></h1></div>
+    <div id="header5">
+    <ul style="margin-left: 1px">
+      <li style="width: 192px"><a  href="Default.aspx"> <FONT COLOR = #000000><b>Ana Sayfa</b> </FONT></a></li>
+      <li style="width: 192px"><a  href="Deneme.aspx"> <FONT COLOR = #000000> Deneme</FONT></a></li>
+      <li style="width: 192px"><a href="Fantastik.aspx"><FONT COLOR = #000000> Fantastik</FONT></a></li>
+      <li style="width: 192px"><a href="KisiselGelisim.aspx"><FONT COLOR = #000000> Ki&#351;isel Geli&#351;im</FONT></a></li>
+      <li style="width: 192px"><a href="PolisiyeMacera.aspx"><FONT COLOR = #000000> Polisiye-Macera</FONT></a></li>
+      <li style="width: 192px"><a href="Tarih.aspx"><FONT COLOR = #000000> Tarih</FONT></a></li>
+      <li style="width: 192px"><a  href="LoginPage.aspx"> <FONT COLOR = #000000> De&#287;erlendirme</FONT></a></li>
+    </ul>
+  </div>
+  <div id="wrapper">
+    <div id="kind">
+        <p> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </p>
+    </div>
+     <div id="information1">     
+         <p>  
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server">
+             </asp:ContentPlaceHolder>
+         </p>
+    </div>
+    <div id="picture">   
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder10" runat="server">
+
+        </asp:ContentPlaceHolder>
+      <!--  <br />
+      <a href="https://www.kitapyurdu.com/kitap/denemeler--montaigne-ciltsiz/18486.html"> <img src ="denemeler.jpg"></a> -->
+  </div> 
+  <div id="name">
+      <p>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+          </asp:ContentPlaceHolder>
+      </p>
+    <div id="information1">     
+        <p> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+            </asp:ContentPlaceHolder>
+        </p>    
+    </div>
+    <div id="picture">   
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder9" runat="server">
+          
+        </asp:ContentPlaceHolder>
+  </div> 
+
+  <div id="name">
+      <p>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+          </asp:ContentPlaceHolder>
+      </p>
+    <div id="information1">     
+        <p> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+            </asp:ContentPlaceHolder>
+        </p>    
+    </div>
+    <div id="picture">   
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server">
+
+        </asp:ContentPlaceHolder>
+      </div> 
+
+
+</div> 
+</div>
+    </form>
+</body>
+</html>

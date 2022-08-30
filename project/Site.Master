@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FinalProject.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kitap &#304;ncelemeleri</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="container">
+  <div id="assignmentone">
+    <h1>  Okumak özgürlüktür, kitapla kal&#305;n :)  </h1>
+   </div>
+<div id="header"><h1><a><FONT COLOR = #FFFFFF> Kitap &#304;ncelemeleri </FONT></a></h1></div>
+  <div id="wrapper">
+    <div id="information">
+      <p> "En iyi kitaplar&#305;n okunmas&#305;, geçmi&#351; yüzy&#305;llar&#305;n en büyük insanlar&#305;yla konu&#351;mak gibidir." - Descartes
+        <p> "&#304;yi kitaplar en gerçek dostlar&#305;m&#305;zd&#305;r."" - Francis Bacon </p>
+       <p>  Siz de kendiniz için en iyi kitab&#305; bulabilmek ad&#305;na, 5 farkl&#305; türdeki kitap incelemelerine bu siteden ula&#351;abilirsiniz.
+          Sol tarafta bulunan 'Kitap Türleri' ba&#351;l&#305;&#287;&#305; alt&#305;ndan istedi&#287;iniz türdeki kitaplar&#305;n oldu&#287;u sayfaya geçebilir ve incelemeleri hemen
+          okuyabilirsiniz.                   
+          <BR><BR> Keyifli okumalar :)
+            
+      </p>
+      
+    </div>
+  </div>
+  <div id="navigation">
+    <p><I><FONT SIZE =5 COLOR=#F7DAA0> Kitap Türleri</FONT></I></p>
+    <ul>
+      <li><a href="Deneme.aspx"> <FONT COLOR = #FFFFFF> Deneme Kitaplar&#305;</FONT></a></li>
+      <li><a href="Fantastik.aspx"><FONT COLOR = #FFFFFF> Fantastik Kitaplar</FONT></a></li>
+      <li><a href="KisiselGelisim.aspx"><FONT COLOR = #FFFFFF> Ki&#351;isel Geli&#351;im Kitaplar&#305;</FONT></a></li>
+      <li><a href="PolisiyeMacera.aspx"><FONT COLOR = #FFFFFF> Polisiye-Macera Kitaplar&#305;</FONT></a></li>
+      <li><a href="Tarih.aspx"><FONT COLOR = #FFFFFF> Tarih Kitaplar&#305;</FONT></a></li>
+    </ul>
+  </div>
+    
+  <div id="footer">
+      <p> 
+          <BR>
+          <a href="LoginPage.aspx">De&#287;erlendirme için t&#305;klay&#305;n&#305;z!</a> </p>
+   
+  </div>
+
+
+</div>
+    </form>
+</body>
+</html>

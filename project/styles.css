@@ -1,0 +1,215 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-image: url("book.jpg");
+    font: 100% Calibri;
+    text-align: center
+}
+
+p {
+    margin: 0 5px 5px;
+    text-indent: 10px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #692406;
+}
+
+/* Ana Sayfa Düzenlemesi */
+div#header {
+    background-color: #692406;
+}
+
+    div#header h1 {
+        height: 140px;
+        line-height: 145px;
+        margin: 5px;
+        padding-left: 25px;
+        font-family: Copperplate Gotik;
+    }
+
+div#header5 {
+    background-color: #F7DAA0;
+    list-style: none display: block;
+}
+
+    div#header5 li {
+        display: inline;
+        margin: 10px;
+        position: relative;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+div#container {
+    text-align: left
+}
+
+div#container {
+    width: 700px;
+    margin: 90px auto
+}
+
+div#information p {
+    line-height: 1.6;
+    color: #FFFFFF;
+    background: #692406;
+}
+
+div#information {
+    float: right;
+    width: 500px;
+    height: 221px;
+}
+
+div#navigation {
+    color: #FFFFFF;
+    background: #692406;
+    font-family: Copperplate Gotik;
+}
+
+div#navigation {
+    float: left;
+    width: 200px
+}
+
+    div#navigation ul {
+        margin: 15px;
+        padding: 3px;
+        list-style-type: disc;
+    }
+
+    div#navigation li {
+        margin-bottom: 9px;
+    }
+
+div#footer a {
+    line-height: 1.6;
+    background: #692406;
+    color: #FFFFFF;
+}
+
+div#footer a {
+    float: right;
+    width: 690px;
+    margin-top: 0px;
+}
+
+div#assignmentone h1 {
+    height: 40px;
+    margin: 10px;
+    padding: 3px;
+    width: 500px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 22px;
+    color: #692406;
+    background-color: #F7DAA0;
+}
+
+/* Kitap Türleri Sayfasının Düzenlemesi */
+
+div#header1 {
+    background-color: #F7DAA0;
+}
+
+    div#header1 h1 {
+        height: 130px;
+        line-height: 130px;
+        margin: 3px;
+        padding-left: 25px;
+        font-family: Copperplate Gotik;
+    }
+
+div#container1 {
+    text-align: left
+}
+
+div#container1 {
+    width: 800px;
+    margin: 0 auto
+}
+
+div#name p {
+    line-height: 1.6;
+    background: #F7DAA0;
+    color: #000000;
+}
+
+div#name {
+    float: right;
+    width: 805px
+}
+
+div#information1 p {
+    line-height: 1.6;
+    background: #F7DAA0;
+    color: #000000;
+}
+
+div#information1 {
+    float: right;
+    width: 650px
+}
+
+div#picture {
+    background: #F7DAA0;
+    color: #692406
+}
+
+div#picture {
+    float: left;
+    width: 150px
+}
+
+div#kind p {
+    font-size: 20px;
+    background: #F7DAA0;
+    color: #692406;
+}
+
+div#kind {
+    float: right;
+    width: 805px
+}
+
+img {
+    max-width: 95%;
+    height: auto;
+}
+
+/* Form Sayfasının Düzenlemesi */
+div#container2 {
+    text-align: left
+}
+
+div#container2 {
+    width: 668px;
+    margin: 0 auto 0 197px
+}
+
+div#form {
+    background: #F7DAA0;
+    color: #692406
+}
+
+div#form {
+    float: right;
+    width: 500px
+}
+
+div#değerlendirme p {
+    line-height: 1.8;
+    background: #F7DAA0;
+    color: #692406;
+}
+
+div#değerlendirme {
+    float: right;
+    width: 505px
+}
